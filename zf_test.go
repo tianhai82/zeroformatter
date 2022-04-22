@@ -4,15 +4,14 @@ import (
 	"errors"
 	"fmt"
 	"math"
+	"reflect"
 	"strings"
 	"testing"
 	"time"
 
-	"github.com/goccy/go-reflect"
-
-	"github.com/tianhai82/zeroformatter"
-	"github.com/tianhai82/zeroformatter/char"
-	"github.com/tianhai82/zeroformatter/datetimeoffset"
+	"github.com/shamaton/zeroformatter"
+	"github.com/shamaton/zeroformatter/char"
+	"github.com/shamaton/zeroformatter/datetimeoffset"
 )
 
 var now time.Time
