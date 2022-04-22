@@ -5,13 +5,14 @@ import (
 	"errors"
 	"fmt"
 	"math"
-	"reflect"
 	"time"
 	"unicode/utf16"
 	"unsafe"
 
-	"github.com/shamaton/zeroformatter/char"
-	"github.com/shamaton/zeroformatter/datetimeoffset"
+	"github.com/goccy/go-reflect"
+
+	"github.com/tianhai82/zeroformatter/char"
+	"github.com/tianhai82/zeroformatter/datetimeoffset"
 )
 
 type deserializer struct {

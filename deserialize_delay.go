@@ -3,7 +3,8 @@ package zeroformatter
 import (
 	"encoding/binary"
 	"fmt"
-	"reflect"
+
+	"github.com/goccy/go-reflect"
 )
 
 type delayDeserializer struct {

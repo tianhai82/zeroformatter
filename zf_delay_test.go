@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"reflect"
+	"github.com/goccy/go-reflect"
 
-	"github.com/shamaton/zeroformatter"
-	"github.com/shamaton/zeroformatter/char"
-	"github.com/shamaton/zeroformatter/datetimeoffset"
+	"github.com/tianhai82/zeroformatter"
+	"github.com/tianhai82/zeroformatter/char"
+	"github.com/tianhai82/zeroformatter/datetimeoffset"
 )
 
 func TestDelayDeserialize(t *testing.T) {

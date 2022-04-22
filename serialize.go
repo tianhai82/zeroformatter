@@ -4,9 +4,10 @@ import (
 	"errors"
 	"fmt"
 	"math"
-	"reflect"
 	"unicode/utf16"
 	"unsafe"
+
+	"github.com/goccy/go-reflect"
 )
 
 const (
